@@ -302,22 +302,22 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 60%;
+  	width: 50%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .python {
-  	width: 55%;
+  	width: 60%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
 .sql{
-  	width: 65%;
+  	width: 50%;
   	-moz-animation: sql 2s ease;
   	-webkit-animation:sql 2s ease;
 }
 .css {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
@@ -343,6 +343,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .project{
   	width: 70%;
+  	-moz-animation: project 2s ease;
+  	-webkit-animation: project 2s ease;
+}
+.vba{
+  	width: 80%;
   	-moz-animation: project 2s ease;
   	-webkit-animation: project 2s ease;
 }
@@ -380,6 +385,10 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 85%;  }
 }
 @-moz-keyframes project {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes vba {
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
@@ -426,6 +435,10 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 70%;  }
 }
 
+@-webkit-keyframes vba {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
